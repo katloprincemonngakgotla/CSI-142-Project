@@ -1,5 +1,5 @@
 public class Member extends Person {
-    private Contribution contribution;  //composition
+    private Contribution contribution; 
 
     public Member(String name, String id, int cellphonoNo, Contribution contribution) {
         super(name, id, cellphonoNo);
